@@ -1,5 +1,5 @@
 import React from "react";
-import { Box } from "../UI";
+import { Box, Btn } from "../UI";
 import { lista } from "../../info";
 
 const List = () => {
@@ -7,10 +7,12 @@ const List = () => {
         lista.cargos.map( ({id, type, value, from, date}) => {
         return  <div key={id}>
                 <span>{ type }</span>
+                <span>{ from }</span>
                 <span>{ value }</span>
             </div>
         })
-    }</Box>
+    }<Btn>Ver más</Btn>
+    </Box>
 }
 
 export default List;
