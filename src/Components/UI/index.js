@@ -9,9 +9,9 @@ export const Btn = styled.button`
     margin: 15px auto 0px auto;
     display: block;
     border-radius: 20px;
-    background-color: #41d3be;
+    background-color: ${ ({theme}) => theme.inside};
     border: none;
-    color: white;
+    color: ${ ({theme}) => theme.text};
     font-weight: 600;
     font-size: 14px;
     padding: 8px 20px;
@@ -42,3 +42,12 @@ export const Detalle = styled.span`
   color: #41d3be;
   font-size: 24px;
 `
+
+export const BtnTema = styled.div`
+  position: absolute;
+  top: 4vh;
+  right: 20px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+`;
