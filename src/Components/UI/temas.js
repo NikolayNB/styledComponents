@@ -11,10 +11,12 @@ export const temaClaro = {
     body: fondoClaro,
     text: textoFondoClaro,
     inside: contenidoClaro,
+    filter: "",
 }
 
 export const temaOscuro = {
     body: fondoOscuro,
     text: textoFondoOscuro,
-    inside: contenidoOscuro,a
+    inside: contenidoOscuro,
+    filter: "invert(100%)"
 }

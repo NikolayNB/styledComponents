@@ -23,7 +23,7 @@ const Container = () => {
   return (
     <StyledContainer>
       <Title>Smart Bank</Title>
-      <StyledContent >
+      <StyledContent>
         <Account />
         <List />
       </StyledContent>
